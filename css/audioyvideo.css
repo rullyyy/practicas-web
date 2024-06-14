@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(135deg, #fce51d, #df863c, #df4136, #a41410);
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header{
+    text-align: center;
+}
+
+.audio-song{
+   padding-top: 5%;
+}
+
+
+
+.lyrics-vid{
+    padding-top: 5%;
+}
+
+.lyrics-vid video{
+    max-width: 50%;
+    border-radius: 20px;
+}
+
+.oficial-vid{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.oficial-vid iframe{
+    max-width: 50%;
+    border-radius: 20px;
+}
