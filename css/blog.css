@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+header{
+    display: flex;
+    text-align: center;
+    margin-left: 25%;
+    
+}
+
+header img{
+    width: 400px;
+    
+}
+header h1{
+    padding-top: 8%;
+}
+
+article{
+    text-align: center;
+    margin-top: 5vh;
+    
+}
+
+.designs{
+    margin-top: 5%;
+}
+.designs img{
+    width: 400px;
+}
+
