@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Burbank Black';
+    src: url('../fonts/burbankbigcondensed_black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Burbank Bold';
+    src: url('../fonts/burbankbigcondensed_bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Burbank Black';
+}
+
+h2{
+    text-align: center;
+    width: 250px;
+    margin: 20px auto 20 px auto;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
+
+header{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.item{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+h1{
+    padding-bottom: 15px;
+    font-size: 2.5em;
+}
+
+.item span{
+    font-size: 0.8em;
+}
+
+.item input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+}
+
+
+.item textarea{
+    max-width: 100%;
+    min-width: 100%;
+    height: 200px !important;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+}
+
+.item textarea::placeholder{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.btn{
+    min-width: 10%;
+    max-width: 10%;
+    
+}
+
+@media only screen and (min-width:588px){
+    h1{
+       font-size: 4.3em; 
+    }
+
+    .item p{
+        font-size: 2em;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media only screen and (min-width:992px){
+    h1{
+       font-size: 3.5em; 
+    }
+
+    .item p{
+        font-size: 1.8em;
+        margin-bottom: 25px;
+    }
+
+    body{
+        background-color: aquamarine;
+    }
+
+    .formulario{
+        width: 50%;
+        margin: auto;
+    }
+
+}
+
+
+@media only screen and (min-width:1280px){
+   h1{
+    font-size: 2.4em;
+    padding-bottom: 30px;
+   }
+
+   .item p{
+    font-size: 1.5em;
+   }
+   
+
+
+
+}

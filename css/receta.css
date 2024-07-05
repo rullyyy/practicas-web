@@ -1,0 +1,51 @@
+/* receta.css */
+body {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('../img/galletas-chispas-de-chocolate.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+main {
+    display: flex;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 2rem;
+}
+
+.left-column {
+    background-color: #f9f9f9;
+}
+
+.right-column {
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e2e2e2;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+ol li {
+    margin: 0.5rem 0;
+}

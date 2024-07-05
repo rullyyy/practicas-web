@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/formularios.css">
     <title>Formularios</title>
 </head>
 
 <body>
     <header>
-        <h2>Formularios HTML</h2>
+        <center><h2>Formularios HTML</h2></center>
 
     </header>
-    <main>
-        <div>
-            <h1>¿Dudas? Envíanos un mensaje:</h1>
+    <main class="container">
+        <div class="item">
+            <h1>¿Dudas? <span>Envíanos un mensaje:</span></h1>
             <h4>Aprovecha este espacio para comentar cualquier duda o inquietud que tengas, nosotros te leemos.</h4>
         </div>
-        <div>
-            <form action="#" method="post"></form>
+        <div class="item">
+            <form  class="formulario" action="#" method="post"></form>
  
             <input type="text" name="Nombre" id="nombre" placeholder="Nombre">
             <input type="tel" name="Telefono" id="tel" placeholder="Telefono (10 dígitos)"> 
@@ -29,8 +30,8 @@
                 <option value="Empleado"></option>
                 <option value="Egresado"></option>    
             </datalist>
-            <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje">
-            <input type="submit" value="Enviar">
+            <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea> <br> <br>
+            <center><input class="btn" type="submit" value="Enviar"></center>
         </div>
     </main>
     <footer>

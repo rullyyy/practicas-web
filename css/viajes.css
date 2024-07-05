@@ -1,0 +1,62 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.london-container, .ny-container, .paris-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.london-container img, .ny-container img, .paris-container img {
+    width: 300px; /* Ajuste del tamaño de las imágenes */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.london-container p, .ny-container p, .paris-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #555;
+}
+
+.ny-container, .paris-container {
+    flex-direction: column;
+}
+
+.ny-container img, .paris-container img {
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+}

@@ -1,0 +1,90 @@
+body {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #001f3f;
+    color: white;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.header-info {
+    flex-grow: 1;
+}
+
+h1 {
+    margin: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid white;
+    margin: 10px 0;
+}
+
+main {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #001f3f;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+.content article {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #001f3f;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
